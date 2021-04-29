@@ -23,7 +23,7 @@ section {
 }
 
 .section-chldrn-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/grand-kids-min.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/image-2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -39,7 +39,7 @@ section {
 }
 
 .section-chldrn-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1619253187768-ff0262fb08b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/image-1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
