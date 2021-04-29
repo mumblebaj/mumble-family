@@ -8,6 +8,8 @@
         <title>Mumble Home page</title>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="/resources/favicons/favicon.ico" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/> 
         <!-- Stylesheet Library -->
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
@@ -77,6 +79,25 @@
                 <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1600">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
+                            <div
+                                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                                <!-- Icon -->
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <!-- Text Box -->
+                            <h6 class="text-xl font-semibold">Some Info</h6>
+                            <p class="mt-2 mb-4 text-gray-600">
+                                Bernard and Beatrice were married 14 April 1952 at St James Catholic Church Schauderville Port Elizabeth and had 8 children.
+                                They lived in Schauderville till 19xx and moved to Saltlake in 1968 and finaly to West End in 1971. 
+                                West End has remained the family home since.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1600">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="px-4 py-5 flex-auto">
                             <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
                                 src="resources/img/alvin.png" alt="" width="150" height="150">
                             <!-- Text Box -->
@@ -97,14 +118,16 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/gerald.png" alt="" width="100" height="100">
+                                <a href="#" id="resources/pages/gm" onclick="document.location=this.id+'.html'; return false;"><img
+                                        class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+                                        src="resources/img/gerald.png" alt="" width="100" height="100"></a>
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
                             <h6 class="text-xl font-semibold">Gerald P Mumble</h6>
                             <p class="mt-2 mb-4 text-gray-600">
-                                1952 -
+                                1952 - <br>
+                                Married to Monica Slabbert
                             </p>
                         </div>
                     </div>
@@ -155,9 +178,10 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
+                                
                                 <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/alvin.png" alt="" width="100" height="100">
-                                <!-- <i class="fas fa-robot"></i> -->
+                                    src="resources/img/alvin.png" alt="" width="150" height="150">
+                                
                             </div>
                             <!-- Text Box -->
                             <h6 class="text-xl font-semibold">Alvin Mumble</h6>
