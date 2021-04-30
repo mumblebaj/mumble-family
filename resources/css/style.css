@@ -23,7 +23,7 @@ section {
 }
 
 .section-chldrn-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/image-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/image-1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -39,7 +39,7 @@ section {
 }
 
 .section-chldrn-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/image-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/image-3.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
