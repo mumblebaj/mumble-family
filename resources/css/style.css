@@ -1,6 +1,6 @@
 /* Header */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/mumble-family-main-min.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/mumble-family-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -44,4 +44,29 @@ section {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+}
+
+/* Photo */
+
+.fam-photo img {
+    opacity: 1;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: transform 0.5s, opacity 0.5s;
+    -moz-transition: transform 0.5s, opacity 0.5s;
+    -ms-transition: transform 0.5s, opacity 0.5s;
+    -o-transition: transform 0.5s, opacity 0.5s;
+}
+
+.fam-photo img:hover {
+    opacity: 0.7;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
 }
