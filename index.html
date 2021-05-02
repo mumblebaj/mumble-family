@@ -3,56 +3,49 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
         <meta name="description" content="An Introduction of the Mumble family from South Africa">
-        <title>Mumble Home page</title>
-        <!-- Favicon -->
-
-        <link rel="icon" href="/resources/favicons/favicon.png">
-        <link rel="shortcut icon" href="/resources/favicons/favicon.png">
-
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
-        <!-- AOS CSS -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Style Sheet -->
         <link rel="stylesheet" href="resources/css/style.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&display=swap">
+        <title>Mumble Home page</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+        <!-- AOS CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <!-- Stylesheet Library -->
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css">
     </head>
     </html>
     <body>
         <header>
-            <nav
-                class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
-                <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-                    <!-- Nav Left Side -->
-                    <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                        <a
-                            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white">
-                            <!-- Nav Title -->
-                            Mumble Home
-                        </a>
-                    </div>
+            <nav>
+                <div class="row"  id="sticky-navigation">
+                    <img src="resources/img/logo-white.png" alt="Mumble logo" class="logo">
+                    <img src="resources/img/logo-dark.png" alt="Mumble logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#gallary" id="resources/pages/gallery" onclick="document.location=this.id+'.html'; return false;">Photo Gallary</a></li>
+                        <!-- <li><a href="#works">How it works</a></li>
+                        <li><a href="#cities">Our cities</a></li>
+                        <li><a href="#plans">Sign up</a></li> -->
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
-                <!-- Text Over Main Background -->
-                <div class="container relative mx-auto">
-                    <div class="items-center flex flex-wrap">
-                        <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                            <div class="pr-12">
-                                <h1 class="text-white font-semibold text-5xl">
-                                    Mumble Home
-                                </h1>
-                                <p class="mt-4 text-lg text-gray-300">
-                                    Welcome to the home of Mumble
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="hero-text-box">
+                <h1 class="cls-h1">Welcome to the Mumble Family Home Page</h1>
             </div>
         </header>
         <section class="section-parents" id="section-parents">
@@ -61,13 +54,11 @@
                     <!-- Card -->
                     <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-up"
                         data-aos-delay="800">
-                        <div
-                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                             <div class="px-4 py-5 flex-auto">
                                 <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                     <!-- Icon -->
-                                    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                        src="resources/img/image1-min.jpg" alt="" width="100" height="100">
+                                    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image1-min.jpg" alt="" width="100" height="100">
                                     <!-- <i class="fas fa-robot"></i> -->
                                 </div>
                                 <!-- Text Box -->
@@ -80,11 +71,9 @@
                     </div>
                     <!-- Card -->
                     <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="600">
-                        <div
-                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                             <div class="px-4 py-5 flex-auto">
-                                <div
-                                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                                     <!-- Icon -->
                                     <i class="fas fa-info-circle"></i>
                                 </div>
@@ -102,8 +91,7 @@
                     </div>
                     <!-- Card -->
                     <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="1000">
-                        <div
-                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                             <div class="px-4 py-5 flex-auto">
                                 <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                     <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
@@ -123,16 +111,13 @@
         <section class="section-chldrn-1" id="section-chldr1">
             <div class="flex flex-wrap justify-between">
                 <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="zoom-in-right"
-                    data-aos-delay="600">
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="zoom-in-right" data-aos-delay="600">
                     <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <a href="#" id="resources/pages/gm"
-                                    onclick="document.location=this.id+'.html'; return false;"><img
-                                        class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                        src="resources/img/image9-min.png" alt="" width="100" height="80"></a>
+                                <a href="#" id="resources/pages/gm" onclick="document.location=this.id+'.html'; return false;">
+                                    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image9-min.png" alt="" width="100" height="80"></a>
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -150,8 +135,7 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image8-min.png" alt="" width="100" height="80">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image8-min.png" alt="" width="100" height="80">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -163,14 +147,12 @@
                     </div>
                 </div>
                 <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="zoom-in-left"
-                    data-aos-delay="800">
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="zoom-in-left" data-aos-delay="800">
                     <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image10-min.png" alt="" width="100" height="80">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image10-min.png" alt="" width="100" height="80">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -192,8 +174,7 @@
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
 
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image5-min.png" alt="" width="150" height="150">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image5-min.png" alt="" width="150" height="150">
 
                             </div>
                             <!-- Text Box -->
@@ -210,8 +191,7 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image11-min.png" alt="" width="150" height="150">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image11-min.png" alt="" width="150" height="150">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -228,8 +208,7 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image14-min.png" alt="" width="100" height="100">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image14-min.png" alt="" width="100" height="100">
                             </div>
                             <!-- Text Box -->
                             <h6 class="text-xl font-semibold">Raymond A Mumble</h6>
@@ -244,14 +223,12 @@
         <section class="section-chldrn-3" id="section-chldrn-3">
             <div class="flex flex-wrap justify-between">
                 <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image16-min.png" alt="Sharon Heynsen" width="100" height="80">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image16-min.png" alt="Sharon Heynsen" width="100" height="80">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -263,14 +240,12 @@
                     </div>
                 </div>
                 <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                    src="resources/img/image6-min.png" alt="Bernard Mumble" width="100" height="80">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image6-min.png" alt="Bernard Mumble" width="100" height="80">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
