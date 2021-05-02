@@ -43,7 +43,7 @@ let photosArray = [];
 // Unsplash API
 let count = 5;
 const apiKey = 'zaAAjDia1KE0I8-_ocG_CJfbmh0oVhadoFItOAO46ww';
-let apiUrl = `https://github.com/mumblebaj/mumble-family/tree/main/resources/gallery`;
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
 function imageLoaded() {
@@ -52,7 +52,7 @@ function imageLoaded() {
         ready = true;
         loader.hidden = true;
         count = 30;
-        apiUrl = `https://github.com/mumblebaj/mumble-family/tree/main/resources/gallery`;
+        apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
     }
 }
 
