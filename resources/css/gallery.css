@@ -44,7 +44,9 @@ h1 {
 
 /* Image Container */
 .image-container {
-    margin: 10px 30%;
+    margin: 10px 5%;
+    columns: 3;
+    column-gap: 1rem;
 
 }
 
