@@ -1,3 +1,6 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -98,29 +101,6 @@ h3,
     border-bottom: 2px solid #e67e22;
 }
 
-/* STICKY navi */
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
-    z-index: 9999;
-}
-
-.sticky .main-nav { margin-top: 18px; }
-
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 16px 0;
-    color: #555;
-    
-}
-
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
-
 /* Header */
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/mumble-family-min.jpg);
@@ -129,16 +109,6 @@ header {
     height: 100vh;
     background-attachment: fixed;
 }
-
-.gm-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/g-m-min.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
-
 
 /* Section */
 section {
@@ -149,14 +119,6 @@ section {
 
 .section-chldrn-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/image-1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
-.gm-section-chldrn {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/gm-min.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
