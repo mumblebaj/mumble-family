@@ -1,4 +1,4 @@
-<Document>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -7,10 +7,9 @@
         <meta name="theme-color" content="#000000" />
         <title>Gerald Mumble Home Page</title>
         <!-- Favicon -->
-        <link rel="icon" href="../favicons/favicon.png">
+        <link rel="icon" href="../favicons/logo-dark.png">
         <link rel="shortcut icon" href="/resources/favicons/favicon.png">
-        <!-- Stylesheet Library -->
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" /> -->
+        <!-- Stylesheet -->
         <link rel="stylesheet" type="text/css" href="../../vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="../../vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="../../vendors/css/normalize.css">
@@ -30,29 +29,23 @@
                     <ul class="main-nav js--main-nav">
                         <!-- <a href="#" id="resources/pages/gm" onclick="document.location=this.id+'.html'; return false;"></a> -->
                         <li><a href="#" id="../../index" onclick="document.location=this.id+'.html'; return false;">Mumble Home</a></li>
-                        <li><a href="#">Back to Top</a></li>
                     </ul>
                     <a class="mobile-nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
             <div class="hero-text-box">
-                <h1>Gerald and Monica Mumble's <br> Home Page</h1>
+                <h1>Gerald and Monica Mumble's <br> Home</h1>
             </div>
         </header>
-        <section class="section features js--section-features">
+        <section class="gm-section-features">
             <div class="row">
-                <h2>Gerald and Monica's family</h2>
-                <p class="long-copy">
-                    Gerald and Monica have four children, Aiden, Elmo, Olivia and Reagan
-                </p>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-2 box">
+                <div class="col span-1-of-3 box">
                     <img src="../img/image9-min.png" alt="Gerald" width="150" height="150" class="people">
                     <h3>Gerald Mumble</h3>
                     <p>Born 1952</p>
                 </div>
-                <div class="col span-1-of-2 box">
+                <div class="col span-1-of-3 box" hidden></div>
+                <div class="col span-1-of-3 box">
                     <img src="../img/image12-min.png" alt="Monica" width="150" height="150" class="people">
                     <h3>Monica Mumble</h3>
                     <p>Born 1952</p>
@@ -60,6 +53,10 @@
             </div>
         </section>
         <section class="gm-section-chldrn" id="gm-section-chldrn">
+            <div class="row children-h2">
+                <h3>Meet the Kids</h3>
+                <h4>Click on an image to explore further</h4>
+            </div>
             <div class="row">
                 <div class="col span-1-of-4 box">
                     <img src="../img/image-18.png" alt="Aiden" width="150" height="150" class="people">

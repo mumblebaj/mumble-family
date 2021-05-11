@@ -1,5 +1,5 @@
-<Document>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,8 +17,8 @@
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/logo-dark.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/logo-dark.png">
         <link rel="manifest" href="resources/favicons/site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
@@ -30,165 +30,84 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         <!-- Stylesheet Library -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"> -->
     </head>
-    </html>
     <body>
         <header>
             <nav>
                 <div class="row"  id="sticky-navigation">
                     <img src="resources/img/logo-white.png" alt="Mumble logo" class="logo">
-                    <img src="resources/img/logo-dark.png" alt="Mumble logo" class="logo-black">
+                    <!-- <img src="resources/img/logo-dark.png" alt="Mumble logo" class="logo-black"> -->
                     <ul class="main-nav js--main-nav">
-                        <li><a href="#gallary" id="resources/pages/gallery" onclick="document.location=this.id+'.html'; return false;">Photo Gallary</a></li>
-                        <!-- <li><a href="#works">How it works</a></li>
-                        <li><a href="#cities">Our cities</a></li>
-                        <li><a href="#plans">Sign up</a></li> -->
+                        <li><a href="#gallery" id="resources/pages/gallery" onclick="document.location=this.id+'.html'; return false;">Photo Gallary</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
             <div class="hero-text-box">
-                <h1 class="cls-h1">Welcome to the Mumble Family Home Page</h1>
+                <h1>Welcome to the Mumble Family Home Page</h1>
             </div>
         </header>
-        <section class="section-parents" id="section-parents">
-            <div class="container mx-auto px-4">
-                <div class="flex flex-wrap">
-                    <!-- Card -->
-                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-up"
-                        data-aos-delay="800">
-                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                            <div class="px-4 py-5 flex-auto">
-                                <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
-                                    <!-- Icon -->
-                                    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image1-min.jpg" alt="" width="100" height="100">
-                                    <!-- <i class="fas fa-robot"></i> -->
-                                </div>
-                                <!-- Text Box -->
-                                <h6 class="text-xl font-semibold">Beatrice J Mumble</h6>
-                                <p class="mt-2 mb-4 text-gray-600">
-                                    1931 - 2008
-                                </p>
-                            </div>
-                        </div>
+        <section>
+            <div class="row">
+                <div class="col span-1-of-3 box">
+                    <img src="resources/img/image13-min.png" alt="Mumb" width="150" height="150" class="people">
+                    <h3>Beatrice J Mumble</h3>
+                    <p>1931 - 2008</p>
+                </div>
+                <div class="col span-1-of-3 box">
+                    <div class="row info-icon-row">
+                        <i class="fas fa-info-circle info-icon"></i>
                     </div>
-                    <!-- Card -->
-                    <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="600">
-                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                            <div class="px-4 py-5 flex-auto">
-                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                                    <!-- Icon -->
-                                    <i class="fas fa-info-circle"></i>
-                                </div>
-                                <!-- Text Box -->
-                                <h6 class="text-xl font-semibold">Some Info</h6>
-                                <p class="mt-2 mb-4 text-gray-600">
-                                    Bernard and Beatrice were married 14 April 1952 at St James Catholic Church
-                                    Schauderville Port Elizabeth and had 8 children.
-                                    They lived in Schauderville and moved to Saltlake in 1968 and finaly to
-                                    West End in 1971.
-                                    West End has remained the family home since.
-                                </p>
-                            </div>
-                        </div>
+                    <div>
+                        <h6 class="text-xl font-semibold">Some Info</h6>
+                        <p class="para-txt">
+                            Bernard and Beatrice were married 14 April 1952 at St James Catholic Church
+                            Schauderville Port Elizabeth and had 8 children.
+                            They lived in Schauderville and moved to Saltlake in 1968 and finaly to
+                            West End in 1971.
+                            West End has remained the family home since.
+                            </p>
                     </div>
-                    <!-- Card -->
-                    <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="1000">
-                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                            <div class="px-4 py-5 flex-auto">
-                                <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
-                                    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                                        src="resources/img/image5-min.png" alt="" width="150" height="150">
-                                </div>
-                                <!-- Text Box -->
-                                <h6 class="text-xl font-semibold">Bernard A J D Mumble</h6>
-                                <p class="mt-2 mb-4 text-gray-600">
-                                    1929 - 1976
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                
+                </div>
+                <div class="col span-1-of-3 box">
+                    <img src="resources/img/image5-min.png" alt="Bernard Snr" width="150" height="150" class="people">
+                    <h3>Bernard A J D Mumble</h3>
+                    <p>1929 - 1976</p>
                 </div>
             </div>
+            </div>
+            
         </section>
         <section class="section-chldrn-1" id="section-chldr1">
-            <div class="flex flex-wrap justify-between">
-                <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="zoom-in-right" data-aos-delay="600">
-                    <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
-                                <!-- Icon -->
-                                <a href="#" id="resources/pages/gm" onclick="document.location=this.id+'.html'; return false;">
-                                    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image9-min.png" alt="" width="100" height="80"></a>
-                                <!-- <i class="fas fa-robot"></i> -->
-                            </div>
-                            <!-- Text Box -->
-                            <h6 class="text-xl font-semibold text-white">Gerald P Mumble</h6>
-                            <p class="mt-2 mb-4 text-white">
-                                1952 - <br>
-                                Married to Monica Slabbert
-                            </p>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col span-1-of-4 box-kids-1">
+                    <a href="#" id="resources/pages/gm" onclick="document.location=this.id+'.html'; return false;">
+                    <img src="resources/img/image9-min.png" alt="Mumb" width="150" height="150" class="people"></a>
+                    <h3 class="kids-h3">Gerald Mumble</h3>
+                    <p class="kids-p">Born: 1952</p>
                 </div>
-                <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-down" data-aos-delay="1000">
-                    <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
-                                <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image8-min.png" alt="" width="100" height="80">
-                                <!-- <i class="fas fa-robot"></i> -->
-                            </div>
-                            <!-- Text Box -->
-                            <h6 class="text-xl font-semibold text-white">Dennis Mumble</h6>
-                            <p class="mt-2 mb-4 text-white">
-                                1953 -
-                            </p>
-                        </div>
-                    </div>
+                <div class="col span-1-of-4 box-kids-1">
+                    <img src="resources/img/image8-min.png" alt="Mumb" width="150" height="150" class="people">
+                    <h3 class="kids-h3">Dennis Mumble</h3>
+                    <p class="kids-p">Born: 1953</p>
                 </div>
-                <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="zoom-in-left" data-aos-delay="800">
-                    <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
-                                <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image10-min.png" alt="" width="100" height="80">
-                                <!-- <i class="fas fa-robot"></i> -->
-                            </div>
-                            <!-- Text Box -->
-                            <h6 class="text-xl font-semibold text-white">Jillian J Adini</h6>
-                            <p class="mt-2 mb-4 text-white">
-                                1955 -
-                            </p>
-                        </div>
-                    </div>
+                <div class="col span-1-of-4 box-kids-1">
+                    <img src="resources/img/image10-min.png" alt="Mumb" width="150" height="150" class="people">
+                    <h3 class="kids-h3">Jillian Adini</h3>
+                    <p class="kids-p">Born: 1955</p>
+                </div>
+                <div class="col span-1-of-4 box-kids-1">
+                    <img src="resources/img/image5-min.png" alt="Mumb" width="150" height="150" class="people">
+                    <h3 class="kids-h3">Alvin Mumble</h3>
+                    <p class="kids-p">1957 - 1993</p>
                 </div>
             </div>
         </section>
         <section class="section-chldrn-2" id="section-chldrn-2">
             <div class="flex flex-wrap justify-between">
-                <!-- Card -->
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="flip-left" data-aos-delay="800">
-                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
-                                <!-- Icon -->
-
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image5-min.png" alt="" width="150" height="150">
-
-                            </div>
-                            <!-- Text Box -->
-                            <h6 class="text-xl font-semibold">Alvin Mumble</h6>
-                            <p class="mt-2 mb-4 text-gray-600">
-                                1957 - 1993
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                
                 <!-- Card -->
                 <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-up" data-aos-delay="400">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
@@ -212,7 +131,7 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image14-min.png" alt="" width="100" height="100">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image14-min.png" alt="" width="150" height="150">
                             </div>
                             <!-- Text Box -->
                             <h6 class="text-xl font-semibold">Raymond A Mumble</h6>
@@ -232,7 +151,7 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image16-min.png" alt="Sharon Heynsen" width="100" height="80">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image16-min.png" alt="Sharon Heynsen" width="150" height="150">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -249,7 +168,7 @@
                         <div class="px-4 py-5 flex-auto">
                             <div class="fam-photo inline-flex w-50 h-50 mb-5 shadow-lg rounded-full">
                                 <!-- Icon -->
-                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image6-min.png" alt="Bernard Mumble" width="100" height="80">
+                                <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="resources/img/image-6-min.png" alt="Bernard Mumble" width="130" height="150">
                                 <!-- <i class="fas fa-robot"></i> -->
                             </div>
                             <!-- Text Box -->
@@ -292,4 +211,4 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="resources/js/script.js"></script>
     </body>
-</Document>
+    </html>
