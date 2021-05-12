@@ -104,14 +104,14 @@ h1 {
     -o-transition: transform 0.2s, opacity 0.2s;
 }
 
-.box img:hover {
+/* .box img:hover {
     opacity: 0.9;
     transform: scale(0.95);
     -webkit-transform: scale(0.95);
     -moz-transform: scale(0.95);
     -ms-transform: scale(0.95);
     -o-transform: scale(0.95);
-}
+} */
 
 .box h3, p {
     text-align: center;
@@ -169,7 +169,7 @@ h6 {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left: 30%;
+    margin-left: 22.5%;
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 50%;

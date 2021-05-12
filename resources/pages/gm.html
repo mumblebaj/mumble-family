@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <title>Gerald Mumble Home Page</title>
-        <!-- Favicon -->
-        <link rel="icon" href="../favicons/logo-dark.png">
-        <link rel="shortcut icon" href="/resources/favicons/favicon.png">
-        <!-- Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="../../vendors/css/grid.css">
+        <!-- Style Sheet -->
+        <link rel="stylesheet" type="text/css" href="../../resources/css/gm-styles.css">
         <link rel="stylesheet" type="text/css" href="../../vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../../vendors/css/ionicons.css">
+        <link rel="stylesheet" type="text/css" href="../../vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="../../vendors/css/normalize.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&display=swap"> -->
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../../resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../resources/favicons/logo-dark.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../resources/favicons/logo-dark.png">
+        <link rel="manifest" href="../../resources/favicons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="../../resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
         <!-- Animation Library -->
         <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script defer src="../js/script.js"></script>
         <!-- Style Sheet -->
-        <link rel="stylesheet" href="../css/gm-styles.css">
+        <!-- <link rel="stylesheet" href="../css/gm-styles.css"> -->
     </head>
     <!-- Body -->
     <body>
@@ -37,14 +46,16 @@
                 <h1>Gerald and Monica Mumble's <br> Home</h1>
             </div>
         </header>
-        <section class="gm-section-features">
+        <section>
             <div class="row">
                 <div class="col span-1-of-3 box">
                     <img src="../img/image9-min.png" alt="Gerald" width="150" height="150" class="people">
                     <h3>Gerald Mumble</h3>
                     <p>Born 1952</p>
                 </div>
-                <div class="col span-1-of-3 box" hidden></div>
+                <div class="col span-1-of-3">
+                    <img src="../img/image12-min.png" class="img-fit">
+                </div>
                 <div class="col span-1-of-3 box">
                     <img src="../img/image12-min.png" alt="Monica" width="150" height="150" class="people">
                     <h3>Monica Mumble</h3>
@@ -53,34 +64,30 @@
             </div>
         </section>
         <section class="gm-section-chldrn" id="gm-section-chldrn">
-            <div class="row children-h2">
-                <h3>Meet the Kids</h3>
-                <h4>Click on an image to explore further</h4>
-            </div>
             <div class="row">
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box-kids-1">
                     <img src="../img/image-18.png" alt="Aiden" width="150" height="150" class="people">
-                    <h3 class="children">Aiden Mumble</h3>
-                    <p class="children">Born 1972</p>
+                    <h3 class="kids-h3">Aiden Mumble</h3>
+                    <p class="kids-p">Born 1972</p>
                 </div>
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box-kids-1">
                     <img src="../img/image-18.png" alt="Aiden" width="150" height="150" class="people">
-                    <h3 class="children">Elmo Mumble</h3>
-                    <p class="children">Born 1974</p>
+                    <h3 class="kids-h3">Elmo Mumble</h3>
+                    <p class="kids-p">Born 1974</p>
                 </div>
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box-kids-1">
                     <img src="../img/image-19.png" alt="Aiden" width="150" height="150" class="people">
-                    <h3 class="children">Olivia Mumble</h3>
-                    <p class="children">Born 1976</p>
+                    <h3 class="kids-h3">Olivia Mumble</h3>
+                    <p class="kids-p">Born 1976</p>
                 </div>
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box-kids-1">
                     <img src="../img/image-17.png" alt="Aiden" width="150" height="150" class="people">
-                    <h3 class="children">Reagan Mumble</h3>
-                    <p class="children">Born 1977</p>
+                    <h3 class="kids-h3">Reagan Mumble</h3>
+                    <p class="kids-p">Born 1977</p>
                 </div>
             </div>
         </section>
-        <script src="../../vendors/js/jquery.waypoints.min.js"></script>
-        <script src="../js/gm.js"></script>
+        <!-- <script src="../../vendors/js/jquery.waypoints.min.js"></script>
+        <script src="../js/gm.js"></script> -->
     </body>
 </html>
