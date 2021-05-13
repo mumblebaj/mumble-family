@@ -79,6 +79,7 @@ h1 {
     -moz-transform: scale(0.97);
     -ms-transform: scale(0.97);
     -o-transform: scale(0.97);
+    background-color: rgba(184, 182, 179, 0.3);
 }
 
 .box img {
@@ -162,11 +163,12 @@ h6 {
 }
 
 .box-kids-1:hover {
-    transform: scale(0.97);
-    -webkit-transform: scale(0.97);
-    -moz-transform: scale(0.97);
-    -ms-transform: scale(0.97);
-    -o-transform: scale(0.97);
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    background-color: rgba(184, 182, 179, 0.3);
 }
 
 .box-kids-1 img {
