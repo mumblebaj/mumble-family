@@ -107,6 +107,7 @@ h1 {
 
 .img-fit {
     object-fit: cover;
+    margin-left: 9%;
 }
 
 /* .box img:hover {
@@ -217,7 +218,7 @@ h6 {
 
 /* Header */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/g-m-min.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/picture-266.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
