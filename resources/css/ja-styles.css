@@ -24,6 +24,12 @@ body {
     margin: 0 auto;
 }
 
+.ja-row {
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -79,15 +85,14 @@ h1 {
     -moz-transform: scale(0.97);
     -ms-transform: scale(0.97);
     -o-transform: scale(0.97);
-    background-color: rgba(184, 182, 179, 0.3);
 }
 
 .box img {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left: 37%;
-    margin-top: 10%;
+    margin-left: 44%;
+    margin-top: 2%;
     margin-bottom: 5%;
     border-radius: 50%;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
@@ -103,11 +108,6 @@ h1 {
     -moz-transition: transform 0.2s, opacity 0.2s;
     -ms-transition: transform 0.2s, opacity 0.2s;
     -o-transition: transform 0.2s, opacity 0.2s;
-}
-
-.img-fit {
-    object-fit: cover;
-    margin-left: 9%;
 }
 
 /* .box img:hover {
@@ -169,7 +169,6 @@ h6 {
     -moz-transform: scale(0.95);
     -ms-transform: scale(0.95);
     -o-transform: scale(0.95);
-    background-color: rgba(184, 182, 179, 0.3);
 }
 
 .box-kids-1 img {
@@ -216,29 +215,7 @@ h6 {
     font-size: 15px;
 }
 
-/* Header */
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/picture-266.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
-section {
-    padding: 80px 0;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-
-.gm-section-chldrn {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/gm-min.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
+/* Main navi */
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -252,9 +229,6 @@ section {
     -o-transform: translate(-50%, -50%);
 }
 
-
-
-/* Logos Styling */
 .logo {
     height: 100px;
     width: auto;
@@ -262,15 +236,6 @@ section {
     margin-top: 20px;
 }
 
-.logo-black {
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-}
-
-/* Main Nav */
 .main-nav {
     float: right;
     list-style: none;
@@ -302,23 +267,58 @@ section {
     border-bottom: 2px solid #e67e22;
 }
 
-.people {
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+/* Header */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/mumble-family-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
-/* Media */
-@media screen and (max-width: 376px) {
-    .about-container {
-        width: 95vw;
-    }
+/* Section */
+section {
+    padding: 80px 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
 
-    .img-container {
-        left: 29px;
-    }
+.section-chldrn-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.section-chldrn-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/image-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Photo */
+.fam-photo img {
+    opacity: 1;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: transform 0.5s, opacity 0.5s;
+    -moz-transition: transform 0.5s, opacity 0.5s;
+    -ms-transition: transform 0.5s, opacity 0.5s;
+    -o-transition: transform 0.5s, opacity 0.5s;
+}
+
+.fam-photo img:hover {
+    opacity: 0.7;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
 }

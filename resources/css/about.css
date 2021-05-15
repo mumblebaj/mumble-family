@@ -75,14 +75,14 @@ h2 {
     font-size: 25px;
     text-align: center;
     margin: 0;
-    color: white;
+    color: #fff;
 }
 
 h4 {
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
-    color: white;
+    color: #fff;
 }
 
 p {
@@ -119,6 +119,37 @@ video {
     height: 100vh;
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.35);
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
 }
 
 @media screen and (max-width: 376px) {
