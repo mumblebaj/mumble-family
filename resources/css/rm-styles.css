@@ -41,6 +41,25 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+    font-size: 120%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #f4f4f4;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 .para-txt {
     font-size: 70%;
     margin-bottom: 30px;
