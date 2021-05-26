@@ -73,9 +73,9 @@ h2:after {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    margin-left: 5%;
+    /* height: 400px;
+    width: 400px; */
+    margin-left: 10%;
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -105,7 +105,7 @@ h2:after {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left: 44%;
+    
     margin-top: 2%;
     margin-bottom: 5%;
     border-radius: 50%;
@@ -147,6 +147,7 @@ h2:after {
 .box p {
     font-size: 15px;
     color: #f4f4f4;
+    margin-bottom: 10px;
 }
 
 h6 {
@@ -160,9 +161,11 @@ h6 {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    margin-left: 5%;
+    text-align: center;
+    /* align-items: center; */
+    /* height: 400px;
+    width: 400px; */
+    /* margin-left: 5%; */
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -183,9 +186,10 @@ h6 {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    margin-left: 5%;
+    text-align: center;
+    /* height: 400px;
+    width: 400px; */
+    /* margin-left: 5%; */
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -224,7 +228,9 @@ h6 {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left:31%;
+    
+    /* margin-left:50%; */
+    /* align-items: center; */
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 50%;
@@ -243,11 +249,17 @@ h6 {
     -o-transition: transform 0.2s, opacity 0.2s;
 }
 
+.people {
+    height: 150px;
+    width: 150px;
+    /* margin-left: 50px; */
+}
+
 .box-kids-2 img {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left: 37%;
+    /* margin-left: 37%; */
     margin-top: 2%;
     margin-bottom: 5%;
     border-radius: 50%;
@@ -286,6 +298,7 @@ h6 {
 .kids-p {
     color: #fff;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 /* Main navi */
@@ -376,7 +389,7 @@ section {
 }
 
 /* Photo */
-.fam-photo img {
+/* .fam-photo img {
     opacity: 1;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
@@ -397,4 +410,134 @@ section {
     -moz-transform: scale(1.03);
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);
+} */
+
+@media only screen and (orientation: landscape) {
+    .box-kids-1 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 23%; */
+    }
+
+    .box-kids-2 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 23%; */
+    }
+
+    .box img {
+        margin-left: 35%;
+    }
+
+    section {
+        height: 100vh;
+    }
+
+    .section-chldrn-1 {
+        height: 100vh;
+    }
+
+    .section-chldrn-3 {
+        height: 100vh;
+    }
+
+    .box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #f4f4f4;
+    }
+
+    .box p {
+        font-size: 13px;
+        color: #f4f4f4;
+        margin-bottom: 10px;
+    }
+
+    .kids-h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .kids-p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 100%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box-kids-1 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 37%; */
+    }
+
+    .box-kids-2 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 35%; */
+    }
+
+    .box img {
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+    }
+
+    section {
+        height: 100vh;
+    }
+
+    .section-chldrn-1 {
+        height: 100vh;
+    }
+
+    .section-chldrn-3 {
+        height: 100vh;
+    }
+
+    .box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #f4f4f4;
+    }
+
+    .box p {
+        font-size: 13px;
+        color: #f4f4f4;
+        margin-bottom: 10px;
+    }
+
+    .kids-h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .kids-p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 100%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
 }

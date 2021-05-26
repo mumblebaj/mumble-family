@@ -54,8 +54,8 @@ h1 {
     transform: scale(1);
     background-color: #fff;
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
+    /* height: 400px;
+    width: 400px; */
     margin-left: 5%;
     box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.4);
     -webkit-border-radius: 20px;
@@ -139,8 +139,8 @@ h6 {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
+    /* height: 400px;
+    width: 400px; */
     margin-left: 5%;
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
@@ -217,6 +217,7 @@ h6 {
     width: 1140px;
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -419,4 +420,190 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+@media only screen and (orientation: landscape) {
+    .box-kids-1 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 23%;
+    }
+
+    .box-kids-2 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 23%;
+    }
+
+    .box img {
+        margin-left: 35%;
+    }
+
+    section {
+        height: 100vh;
+    }
+
+    .section-chldrn-1 {
+        height: 100vh;
+    }
+
+    .section-chldrn-3 {
+        height: 100vh;
+    }
+
+    .hero-text-box {
+        position: absolute;
+        width: 486px;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 100%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+    .box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .box p {
+        font-size: 13px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .kids-h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .kids-p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 100%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+
+    .social-links li a:link,
+    .social-links li a:visited {
+    font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box-kids-1 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 37%;
+    }
+
+    .box-kids-2 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+    }
+
+    .box img {
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+    }
+
+    section {
+        height: 100vh;
+    }
+
+    .section-chldrn-1 {
+        height: 100vh;
+    }
+
+    .section-chldrn-3 {
+        height: 100vh;
+    }
+
+    .hero-text-box {
+        position: absolute;
+        width: 367px;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 100%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+    .box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .box p {
+        font-size: 13px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .kids-h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .kids-p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 100%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+    
+    .social-links li a:link,
+    .social-links li a:visited {
+    font-size: 100%;
+    }
+
+    
 }
