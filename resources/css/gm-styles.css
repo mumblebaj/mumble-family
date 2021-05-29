@@ -73,8 +73,8 @@ h2:after {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
+    /* height: 400px;
+    width: 400px; */
     margin-left: 5%;
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
@@ -165,9 +165,10 @@ h6 {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    margin-left: 5%;
+    text-align: center;
+    /* height: 400px;
+    width: 400px; */
+    /* margin-left: 5%; */
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -197,7 +198,7 @@ h6 {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left: 22.5%;
+    /* margin-left: 22.5%; */
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 50%;
@@ -225,6 +226,12 @@ h6 {
     -o-transform: scale(0.95);
 } */
 
+.people {
+    height: 150px;
+    width: 150px;
+    /* margin-left: 50px; */
+}
+
 .kids-h3 {
     text-align: center;
     color: #fff;
@@ -241,22 +248,24 @@ h6 {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/picture-266.jpg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center center;
     height: 100vh;
     background-attachment: fixed;
 }
 
 section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../css/img/gm-2.jpg);
     padding: 80px 0;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../css/img/gm-2.jpg);
-    /* background-color: #f4f4f4; */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .gm-section-chldrn {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/gm-min.png);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
@@ -305,6 +314,7 @@ section {
     float: right;
     list-style: none;
     margin-top: 55px;
+    margin-right: 10px;
 }
 
 .main-nav li {
@@ -340,4 +350,210 @@ section {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+@media only screen and (orientation: landscape) {
+    .box-kids-1 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 23%; */
+    }
+
+    .box-kids-2 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 23%; */
+    }
+
+    section {
+        /* margin: 10px 0; */
+        height: 100vh;
+    }
+
+    .section-chldrn-1 {
+        height: 100vh;
+    }
+
+    .section-chldrn-3 {
+        height: 100vh;
+    }
+
+    .hero-text-box {
+        position: absolute;
+        width: 486px;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 100%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+    .box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .box p {
+        font-size: 13px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .kids-h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .kids-p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 100%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+
+    .social-links li a:link,
+    .social-links li a:visited {
+    font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 10px 0;
+    }
+    .box-kids-1 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 37%; */
+    }
+
+    .box-kids-2 img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 35%; */
+    }
+
+    .box img {
+        height: 100px;
+        width: 100px;
+        /* margin-left: 35%; */
+    }
+
+    section {
+        /* margin: 10px 0; */
+        height: 100vh;
+    }
+
+    .section-chldrn-1 {
+        height: 100vh;
+    }
+
+    .section-chldrn-3 {
+        height: 100vh;
+    }
+
+    .hero-text-box {
+        position: absolute;
+        width: 367px;
+        font-size: 70%;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 100%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+    .box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .box p {
+        font-size: 13px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .kids-h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .kids-p {
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 100%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+
+    h2 {
+        font-size: 80%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 70%;
+    }
+
+    .logo {
+        height: 80px;
+    }
+    
+    .social-links li a:link,
+    .social-links li a:visited {
+    font-size: 100%;
+    }
+
+    
 }

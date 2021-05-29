@@ -73,9 +73,7 @@ h2:after {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    /* height: 400px;
-    width: 400px; */
-    margin-left: 10%;
+    text-align: center;
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -124,15 +122,6 @@ h2:after {
     -o-transition: transform 0.2s, opacity 0.2s;
 }
 
-/* .box img:hover {
-    opacity: 0.9;
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-    -moz-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    -o-transform: scale(0.95);
-} */
-
 .box h3, p {
     text-align: center;
     
@@ -162,10 +151,6 @@ h6 {
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
     text-align: center;
-    /* align-items: center; */
-    /* height: 400px;
-    width: 400px; */
-    /* margin-left: 5%; */
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -187,9 +172,6 @@ h6 {
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
     text-align: center;
-    /* height: 400px;
-    width: 400px; */
-    /* margin-left: 5%; */
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -228,9 +210,6 @@ h6 {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    
-    /* margin-left:50%; */
-    /* align-items: center; */
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 50%;
@@ -278,16 +257,6 @@ h6 {
     -o-transition: transform 0.2s, opacity 0.2s;
 }
 
-
-/* .box-kids-1 img:hover {
-    opacity: 0.9;
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-    -moz-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    -o-transform: scale(0.95);
-} */
-
 .kids-h3 {
     text-align: center;
     color: #fff;
@@ -325,6 +294,7 @@ h6 {
     float: right;
     list-style: none;
     margin-top: 55px;
+    margin-right: 10px;
 }
 
 .main-nav li {
@@ -363,13 +333,13 @@ header {
 
 /* Section */
 section {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/sh-1.jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/sh-1.jpg);
     background-size: cover;
-    background-position: center;
     padding: 80px 0;
     height: 100vh;
-    background-attachment: fixed;
-    /* background-color: #f4f4f4; */
+    background-repeat: no-repeat;
+    /* width: 100vw; */
 }
 
 .section-chldrn-1 {
@@ -378,39 +348,17 @@ section {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-.section-chldrn-3 {
+.section-chldrn-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sh-3.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-
-/* Photo */
-/* .fam-photo img {
-    opacity: 1;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    -webkit-transition: transform 0.5s, opacity 0.5s;
-    -moz-transition: transform 0.5s, opacity 0.5s;
-    -ms-transition: transform 0.5s, opacity 0.5s;
-    -o-transition: transform 0.5s, opacity 0.5s;
-}
-
-.fam-photo img:hover {
-    opacity: 0.7;
-    transform: scale(1.03);
-    -webkit-transform: scale(1.03);
-    -moz-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    -o-transform: scale(1.03);
-} */
 
 @media only screen and (orientation: landscape) {
     .box-kids-1 img {
@@ -425,9 +373,9 @@ section {
         /* margin-left: 23%; */
     }
 
-    .box img {
+    /* .box img {
         margin-left: 35%;
-    }
+    } */
 
     section {
         height: 100vh;
@@ -492,10 +440,11 @@ section {
     .box img {
         height: 100px;
         width: 100px;
-        margin-left: 35%;
+        /* margin-left: 35%; */
     }
 
     section {
+        padding: 10px 0;
         height: 100vh;
     }
 
@@ -533,11 +482,20 @@ section {
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 80%;
         word-spacing: 2px;
         text-align: center;
         margin-bottom: 10px;
         letter-spacing: 1px;
         color: #f4f4f4;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 70%;
+    }
+
+    .logo {
+        height: 80px;
     }
 }

@@ -50,14 +50,17 @@ h1 {
 }
 
 /* Reuseable Box */
+.people {
+    height: 150px;
+    width: 150px;
+}
+
 .box {
     transform: scale(1);
-    background-color: #fff;
+    background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    /* height: 400px;
-    width: 400px; */
     margin-left: 5%;
-    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -105,15 +108,6 @@ h1 {
     -o-transition: transform 0.2s, opacity 0.2s;
 }
 
-/* .box img:hover {
-    opacity: 0.9;
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-    -moz-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    -o-transform: scale(0.95);
-} */
-
 .box h3, p {
     text-align: center;
     
@@ -121,11 +115,13 @@ h1 {
 
 .box h3 {
     font-size: 20px;
+    color: #fff;
     margin-bottom: 10px;
 }
 
 .box p {
     font-size: 15px;
+    color: #fff;
 }
 
 h6 {
@@ -139,9 +135,7 @@ h6 {
     transform: scale(1);
     background-color: rgba(75, 73, 73, 0.3);
     border-radius: 20px;
-    /* height: 400px;
-    width: 400px; */
-    margin-left: 5%;
+    text-align: center;
     box-shadow: 0 5px 5px 2px rgba(168, 166, 166, 0.4);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -171,7 +165,6 @@ h6 {
     opacity: 1;
     transform: scale(1);
     transition: transform 0.2s, opacity 0.2s;
-    margin-left: 22.5%;
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 50%;
@@ -189,15 +182,6 @@ h6 {
     -ms-transition: transform 0.2s, opacity 0.2s;
     -o-transition: transform 0.2s, opacity 0.2s;
 }
-
-/* .box-kids-1 img:hover {
-    opacity: 0.9;
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-    -moz-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    -o-transform: scale(0.95);
-} */
 
 .kids-h3 {
     text-align: center;
@@ -236,6 +220,7 @@ h6 {
     float: right;
     list-style: none;
     margin-top: 55px;
+    margin-right: 10px;
 }
 
 .main-nav li {
@@ -274,9 +259,9 @@ header {
 
 /* Section */
 section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/image-3.jpg);
     padding: 80px 0;
     height: 100vh;
-    background-color: #f4f4f4;
 }
 
 .section-chldrn-1 {
@@ -287,46 +272,12 @@ section {
     background-attachment: fixed;
 }
 
-.section-chldrn-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/image-3.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
-/* Photo */
-.fam-photo img {
-    opacity: 1;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    -webkit-transition: transform 0.5s, opacity 0.5s;
-    -moz-transition: transform 0.5s, opacity 0.5s;
-    -ms-transition: transform 0.5s, opacity 0.5s;
-    -o-transition: transform 0.5s, opacity 0.5s;
-}
-
-.fam-photo img:hover {
-    opacity: 0.7;
-    transform: scale(1.03);
-    -webkit-transform: scale(1.03);
-    -moz-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    -o-transform: scale(1.03);
-}
-
 /* Info Icon */
 .info-icon {
     font-size: 70px;
     padding-left: 40%;
     margin-top: 5%;
 }
-
-
 
 /* Footer */
 footer {
@@ -426,17 +377,11 @@ footer p {
     .box-kids-1 img {
         height: 100px;
         width: 100px;
-        margin-left: 23%;
     }
 
     .box-kids-2 img {
         height: 100px;
         width: 100px;
-        margin-left: 23%;
-    }
-
-    .box img {
-        margin-left: 35%;
     }
 
     section {
@@ -476,12 +421,12 @@ footer p {
     .box h3 {
         font-size: 16px;
         margin-bottom: 10px;
-        color: black;
+        color: #fff;
     }
 
     .box p {
         font-size: 13px;
-        color: black;
+        color: #fff;
         margin-bottom: 10px;
     }
 
@@ -517,22 +462,20 @@ footer p {
     .box-kids-1 img {
         height: 100px;
         width: 100px;
-        margin-left: 37%;
     }
 
     .box-kids-2 img {
         height: 100px;
         width: 100px;
-        margin-left: 35%;
     }
 
     .box img {
         height: 100px;
         width: 100px;
-        margin-left: 35%;
     }
 
     section {
+        padding: 10px 0;
         height: 100vh;
     }
 
@@ -547,6 +490,7 @@ footer p {
     .hero-text-box {
         position: absolute;
         width: 367px;
+        font-size: 70%;
         top: 50%;
         left: 50%;
         text-align: center;
@@ -569,12 +513,12 @@ footer p {
     .box h3 {
         font-size: 16px;
         margin-bottom: 10px;
-        color: black;
+        color: #fff;
     }
 
     .box p {
         font-size: 13px;
-        color: black;
+        color: #fff;
         margin-bottom: 10px;
     }
 
@@ -598,6 +542,24 @@ footer p {
         margin-bottom: 10px;
         letter-spacing: 1px;
         color: #f4f4f4;
+    }
+
+    h2 {
+        font-size: 80%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 70%;
+    }
+
+    .logo {
+        height: 80px;
     }
     
     .social-links li a:link,
