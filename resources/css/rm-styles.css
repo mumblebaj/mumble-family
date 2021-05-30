@@ -348,9 +348,10 @@ header {
 
 /* Section */
 section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/rm.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/rm-1-min.jpg);
     padding: 80px 0;
     height: 100vh;
+    background-size: cover;
     /* background-color: #f4f4f4; */
 }
 
